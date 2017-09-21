@@ -2,8 +2,6 @@ package Oops;
 
 import java.util.Set;
 
-import Oops.JobType.JOBTYPE;
-
 public class Instructor extends Person{
 	private int experience;
 	private float salary;

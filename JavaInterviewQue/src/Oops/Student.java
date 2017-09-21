@@ -4,7 +4,7 @@ import java.util.Set;
 
 public class Student extends Person {
 	
-	private static final String val = null;
+//	private static final String val = null;
 	private int rollNo;
 	private String grade;
 	
