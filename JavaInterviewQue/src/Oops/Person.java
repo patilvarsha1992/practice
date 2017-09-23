@@ -1,5 +1,5 @@
 package Oops;
-import java.util.Set;
+  import java.util.Set;
 
 /**
  * 
@@ -21,29 +21,29 @@ public class Person {
 		this.courses=courses;
 	}
 	
-	public int getId(){
-		return id;
-	}
-	
-	public void setId(int id) {
-		this.id=id;
-		
-	}
-	public String getFname(){
-		return firstName;
-	}
-	
-	public void setFname(String fName) {
-		this.firstName=fName;
-		
-	}
-	public String getLname(){
-		return lastName;
-	}
-	
-	public void setLname(String lName) {
-		this.lastName=lName;
-	}
+//	public int getId(){
+//		return id;
+//	}
+//	
+//	public void setId(int id) {
+//		this.id=id;
+//		
+//	}
+//	public String getFname(){
+//		return firstName;
+//	}
+//	
+//	public void setFname(String fName) {
+//		this.firstName=fName;
+//		
+//	}
+//	public String getLname(){
+//		return lastName;
+//	}
+//	
+//	public void setLname(String lName) {
+//		this.lastName=lName;
+//	}
 	
 	public String toString(){
 		return "id-"+id + " " + "FirstName-"+firstName+" "+"Lastname-"+lastName;

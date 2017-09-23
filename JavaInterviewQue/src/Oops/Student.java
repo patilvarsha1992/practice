@@ -47,18 +47,18 @@ public class Student extends Person {
 		
 	}
 	
-@Override
+//@Override
 	
-	public boolean equals(Object o){ //o =s2
-		if (o == null)  //check is s2 object is null
-			return false;
-		if (o instanceof Student) {  //check datatype od s1 and s2 object
-			Student otherStud = (Student) o;//map stud to other stud
-			return this.getFname().equals(otherStud.getFname());
-		}
-			
-		return false;
-	}
+//	public boolean equals(Object o){ //o =s2
+//		if (o == null)  //check is s2 object is null
+//			return false;
+//		if (o instanceof Student) {  //check datatype od s1 and s2 object
+//			Student otherStud = (Student) o;//map stud to other stud
+//			return this.getFname().equals(otherStud.getFname());
+//		}
+//			
+//		return false;
+//	}
 //	 public String toString() {
 //	        return   String.valueOf(val);
 //	 }

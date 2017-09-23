@@ -2,12 +2,13 @@ package OverridingExam;
 //method must have same name as in the parent class
 //method must have same parameter as in the parent class.
 //must be IS-A relationship (inheritance).
+//function body is diff
 
 public class Car {
 	public void run(){
 		System.out.println("car is running");
 	}
-}
+
 
 //public class Bike extends Car{
 //	
@@ -20,5 +21,5 @@ public class Car {
 //		obj.run();
 //	}
 
-//}
+}
 
